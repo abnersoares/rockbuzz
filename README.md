@@ -18,7 +18,7 @@ Caso queira utilizar este projeto para algum fim, sugiro criar validações como
 
 ## Ambiente Recomendado
 - PHP: 7.2.10
-- MySQL: 
+- MySQL: 5.7.23
 - OS: MacOS ou Linux
 
 ## Instalação
