@@ -33,6 +33,7 @@ Caso queira utilizar este projeto para algum fim, sugiro criar validações como
 Ao acessar a url do projeto, será exibida a tela do front-end. Para entrar no módulo administrativo, basta ir para a url **/Admin**.
 
 **Usuário:** teste@teste.com.br
+
 **Senha:** 123
 
 ## APIs
