@@ -41,7 +41,7 @@ Segue abaixo a lista de operações disponíveis e seus respectivos parâmetros:
 
 #### Autores
 | Operação | Parâmetros | Descrição
-| ------------ | ------------ |
+| ------------ | ------------ | ------------ |
 | AddAuthor  | name (string)  | Insere um novo autor
 | EditAuthor  | name (string), id (int)  | Edita o autor existente
 | GetAuthor  | id (int)  | Retorna os dados do autor via ID
@@ -52,7 +52,7 @@ Segue abaixo a lista de operações disponíveis e seus respectivos parâmetros:
 
 #### Posts
 | Operação | Parâmetros | Descrição
-| ------------ | ------------ |
+| ------------ | ------------ | ------------ |
 | AddPost  | title (string), body (text), published (boolean), image (base64), tags (string)  | Insere um novo post (tags separadas por vígula)
 | EditPost  | title (string), body (text), published (boolean), image (base64), tags (string), id (int)  | Edita o post existente (tags separadas por vígula)
 | GetPost  | id (int)  | Retorna os dados do post via ID
@@ -63,7 +63,7 @@ Segue abaixo a lista de operações disponíveis e seus respectivos parâmetros:
 
 #### Tags
 | Operação | Parâmetros | Descrição
-| ------------ | ------------ |
+| ------------ | ------------ | ------------ |
 | AddTag  | name (string)  | Insere uma nova tag
 | EditTag  | name (string), id (int)  | Edita a tag existente
 | GetTag  | id (int)  | Retorna os dados da tag via ID
@@ -74,7 +74,7 @@ Segue abaixo a lista de operações disponíveis e seus respectivos parâmetros:
 
 #### Usuários (admin)
 | Operação | Parâmetros | Descrição
-| ------------ | ------------ |
+| ------------ | ------------ | ------------ |
 | AddUser  | name (string), email (string), password (string)  | Insere um novo usuário
 | EditUser  | name (string), email (string), password (string), id (int)  | Edita o usuário existente
 | GetUser  | id (int)  | Retorna os dados do usuaário via ID
@@ -83,5 +83,5 @@ Segue abaixo a lista de operações disponíveis e seus respectivos parâmetros:
 
 #### Logs
 | Operação | Parâmetros | Descrição
-| ------------ | ------------ |
+| ------------ | ------------ | ------------ |
 | GetLogs  | -  | Retorna os logs de requisições das APIs
