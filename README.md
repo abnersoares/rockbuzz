@@ -61,6 +61,8 @@ Segue abaixo a lista de operações disponíveis e seus respectivos parâmetros:
 | RemovePost  | id (int)  | Remove o post via ID
 | EnableDisablePost  | id (int), action (varchar)  | Ativa ou desativa o post passando o parâmetro action = enable/disable
 
+> Ao remover um post ou editar a imagem, a antiga será excluída do server.
+
 #### Tags
 | Operação | Parâmetros | Descrição
 | ------------ | ------------ | ------------ |
