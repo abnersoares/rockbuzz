@@ -1,0 +1,54 @@
+<h2>Editar Postagem</h2>
+
+<h5><a href="?page=PostList">< VOLTAR</a></h5>
+
+<form id="AddPost">
+	
+	<div class="form-group">
+		<label>Título <span>*</span></label>
+		<input type="text" name="title" maxlength="100" required="required">
+	</div>
+
+	<div class="form-group">
+		<label>Slug <span>*</span></label>
+		<input type="text" name="slug" disabled="disabled" maxlength="100">
+	</div>
+
+	<div class="form-group">
+		<label>Tags <small>Digite a tag e pressione enter.</small></label>
+		<input type="text" name="tags" maxlength="100">
+	</div>
+
+	<div class="form-group">
+		<label>Conteúdo <span>*</span></label>
+		<textarea name="body" rows="7" required="required"></textarea>
+	</div>
+
+	<div class="form-group">
+		<label>Imagem</label>
+		<input type="file" name="image" accept="image/*">
+		<img id="preview" style="display: none;" />
+	</div>
+
+	<div class="form-group">
+		<label>Publicar <span>*</span></label>
+		<input type="radio" name="published" value="1" checked="checked"> Sim
+		<input type="radio" name="published" value="0" class="second-radio"> Não
+	</div>
+
+	<div class="form-group">
+		<label>Autor <span>*</span></label>
+		<select name="author_id" required="required">
+			<option value="">Selecione</option>
+		</select>
+	</div>
+
+	<div class="form-group">
+
+		<button>Salvar</button>
+
+	</div>
+
+</form>
+
+<script type="text/javascript" src="partials/js/EditPost.js"></script>

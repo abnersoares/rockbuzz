@@ -1,0 +1,34 @@
+<h2>Postagens</h2>
+
+<h5><a href="?page=AddPost">+ NOVA POSTAGEM</a></h5>
+
+<div class="search">
+	<form>
+		<div><a href="javascript: clearSearch()">[x]</a></div>
+		<input type="text" id="search" placeholder="<?= SEARCH_LABEL ?>">
+	</form>
+</div>
+
+<div class="list_table">
+	<table>
+
+		<thead>
+			<tr>
+				<th>Título</th>
+				<th>Slug</th>
+				<th>Conteúdo</th>
+				<th>Imagem</th>
+				<th>Publicado</th>
+				<th>Autor</th>
+				<th class="actions">Ações</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<!-- DYNAMIC -->
+		</tbody>
+
+	</table>
+</div>
+
+<script type="text/javascript" src="partials/js/PostList.js"></script>

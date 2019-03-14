@@ -1,0 +1,30 @@
+<h2>Usuários</h2>
+
+<h5><a href="?page=AddUser">+ NOVO USUÁRIO</a></h5>
+
+<div class="search">
+	<form>
+		<div><a href="javascript: clearSearch()">[x]</a></div>
+		<input type="text" id="search" placeholder="<?= SEARCH_LABEL ?>">
+	</form>
+</div>
+
+<div class="list_table">
+	<table>
+
+		<thead>
+			<tr>
+				<th>Nome</th>
+				<th>E-mail</th>
+				<th class="actions">Ações</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<!-- DYNAMIC -->
+		</tbody>
+
+	</table>
+</div>
+
+<script type="text/javascript" src="partials/js/UserList.js"></script>
