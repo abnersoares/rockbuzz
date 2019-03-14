@@ -85,3 +85,8 @@ Segue abaixo a lista de operações disponíveis e seus respectivos parâmetros:
 | Operação | Parâmetros | Descrição
 | ------------ | ------------ | ------------ |
 | GetLogs  | -  | Retorna os logs de requisições das APIs
+
+#### Login
+| Operação | Parâmetros | Descrição
+| ------------ | ------------ | ------------ |
+| Login  | email (string), password (string)  | Loga o usuário no sistema
